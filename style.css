@@ -1,0 +1,51 @@
+*{
+    list-style: none;
+    text-decoration: none;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* diseño del titulo centrado */
+.ctn{
+    display: flex;
+    justify-content: center;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+}
+
+.section h2{
+    font-size: 30px;
+}
+
+/* -------- */
+
+
+/* grid */
+.container{
+    margin: 5px;
+}
+
+.grid{
+    display: grid;  /* medidas de grid, no mover (al menos que sea necesario */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: min-content(20px, auto);  
+    gap: 1em;
+}
+
+.grid div{
+    text-align: center;
+}
+
+.grid div:hover{
+    border: 1px solid #27e6e6;
+}
+
+/* ---- */
